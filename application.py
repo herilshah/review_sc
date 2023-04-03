@@ -72,7 +72,7 @@ def index():
                           "Comment": custComment}
                 reviews.append(mydict)
             
-                client = pymongo.MongoClient("mongodb+srv://herilshah:<password>@cluster0.anyatip.mongodb.net/?retryWrites=true&w=majority")
+                client = pymongo.MongoClient("mongodb+srv://herilshah:ZKQlyEZ84a04vPwM@cluster0.anyatip.mongodb.net/?retryWrites=true&w=majority")
                 db = client.test
 
             review_col = db['review_scrap_data']
